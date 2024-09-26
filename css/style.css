@@ -101,13 +101,70 @@ header ul {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.content {
+    padding: 2rem;
+}
+
 .content > div {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
+.content .max-content-width {
+    max-width: 850px;   
+}
+
 .content h2 {
     font-size: 36px;
     font-weight: 900;
+}
+
+.content-items {
+    display: flex;
+    gap: 3rem;
+}
+
+.square {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 5px solid #3882f6;
+    border-radius: 1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+    padding: 3rem;
+    background-color: #e5e7eb;
+}
+
+.quote .max-content-width {
+    max-width: 800px;
+}
+
+.quote > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
