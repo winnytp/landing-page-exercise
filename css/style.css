@@ -168,3 +168,44 @@ header ul {
     font-weight: bold;
     text-align: right;
 }
+
+.cta {
+    padding: 6rem;
+}
+
+.cta .max-content-width {
+    max-width: 1050px;
+}
+
+.cta .cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 12%;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.cta-container .cta-heading {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cta-container .cta-subtext {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.cta-container button {
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
+}
