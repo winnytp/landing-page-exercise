@@ -23,7 +23,7 @@ h1, h2, p, li, a {
     color: #d3d5da;  
 }
 
-header, .hero, .content, .quote, .cta {
+header, .hero, .content, .quote, .cta, footer {
     display: flex;
     justify-content: center;
 }
@@ -209,4 +209,10 @@ header ul {
     padding: .5rem 2rem;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0);
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
 }
