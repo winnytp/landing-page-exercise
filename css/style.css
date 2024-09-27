@@ -184,6 +184,7 @@ header ul {
     padding: 3rem 12%;
     background-color: #3882f6;
     border-radius: 8px;
+    gap: 1rem;
 }
 
 .cta-container .cta-heading {
